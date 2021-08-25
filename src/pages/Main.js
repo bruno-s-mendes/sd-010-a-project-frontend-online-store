@@ -62,7 +62,11 @@ class Main extends Component {
                 className="search-btn"
               />
             </form>
-            <Link data-testid="shopping-cart-button" to="/shopping-cart" className="shopping-cart">
+            <Link
+              data-testid="shopping-cart-button"
+              to="/shopping-cart"
+              className="shopping-cart"
+            >
               <FaShoppingCart />
             </Link>
           </div>
