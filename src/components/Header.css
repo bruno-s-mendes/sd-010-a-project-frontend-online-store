@@ -1,0 +1,26 @@
+.header {
+  background-color: #fff159;
+  align-items: center;
+  display: flex;
+  color: #2968c8;
+}
+
+.header-img {
+  margin: 10px;
+  max-height: 70px;
+  max-width: 150px;
+}
+
+.header-title {
+  margin: 10px;
+}
+
+.header-h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.header-p {
+  font-size: 15px;
+  margin: 0;
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './ProductCard.css';
 
 export default class AddToCart extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ export default class AddToCart extends Component {
         type="button"
         data-testid={ classId }
         onClick={ () => this.addItem() }
+        className="card-add-to-cart"
       >
         Adicionar ao Carrinho
       </button>

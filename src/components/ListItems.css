@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

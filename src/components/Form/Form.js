@@ -76,7 +76,8 @@ const Form = (props) => {
 
   return (
     <>
-      <form>
+      <form className="rate-form">
+        <h3>Avalie o Produto:</h3>
         <div className="email-rating">
           <label htmlFor="email" className="email">
             <input
@@ -85,6 +86,7 @@ const Form = (props) => {
               placeholder="digite seu email"
               required
               onBlur={ saveEmail }
+              className="email-input"
             />
           </label>
           <Rating setStarCount={ saveStar } />
@@ -93,6 +95,7 @@ const Form = (props) => {
           onBlur={ saveText }
           className="text-area"
           id="text-area"
+          placeholder="escreva aqui sua avaliaçao"
           data-testid="product-detail-evaluation"
         />
         <button
@@ -103,16 +106,18 @@ const Form = (props) => {
         </button>
       </form>
       <div className="content-container">
-        <p>Avaliações: </p>
-        {emailContent.map((elem, index) => (
-          <div key={ elem } className="comment">
-            <p>{elem}</p>
-            <p>
-              {starsComment(starContent[index])}
-            </p>
-            <p className="text-area">{textContent[index]}</p>
-          </div>
-        ))}
+        <h3>Avaliações: </h3>
+        <div className="ratings">
+          {emailContent.map((elem, index) => (
+            <div key={ elem } className="comment">
+              <p>{elem}</p>
+              <p>
+                {starsComment(starContent[index])}
+              </p>
+              <p className="text-area">{textContent[index]}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );

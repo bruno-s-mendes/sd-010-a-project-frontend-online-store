@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import * as api from '../services/api';
+import './CategoryFilter.css';
 
 class CategoryFilter extends Component {
   constructor() {
@@ -26,13 +27,14 @@ class CategoryFilter extends Component {
   render() {
     const { categoryList } = this.state;
     return (
-      <nav>
+      <nav className="side-nav">
         <aside>
           {categoryList.map(({ name, id }) => (
             <option
               onClick={ () => this.sendId(id) }
               data-testid="category"
               key={ id }
+              className="side-nav-option"
             >
               {name}
             </option>

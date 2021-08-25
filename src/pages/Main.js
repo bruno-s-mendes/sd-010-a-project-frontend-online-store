@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import { FaSearch, FaShoppingCart } from 'react-icons/fa';
 import CategoryFilter from '../components/CategoryFilter';
-import carrinho from './carrinho.png';
 import ListItems from '../components/ListItems';
 import * as api from '../services/api';
+import './Main.css';
 
 class Main extends Component {
   constructor(props) {
@@ -41,33 +42,32 @@ class Main extends Component {
   render() {
     const { input, list } = this.state;
     return (
-      <div>
-        {/* --> Explicar para galera sobre as mudanças no componente CategoryFilter */}
-        <CategoryFilter fetchAPI={ this.fetchAPI } />
-        <form onSubmit={ this.handleSubmit }>
-          <input
-            data-testid="query-input"
-            type="text"
-            value={ input }
-            onChange={ this.changeState }
-          />
-          <button
-            type="submit"
-            data-testid="query-button"
-            onClick={ this.fetchAPI }
-          >
-            Pesquisar
-          </button>
-        </form>
-        <h1
-          data-testid="home-initial-message"
-        >
-          Digite algum termo de pesquisa ou escolha uma categoria.
-        </h1>
-        <Link data-testid="shopping-cart-button" to="/shopping-cart">
-          <img src={ carrinho } alt="carrinho" />
-        </Link>
-        <ListItems list={ list } />
+      <div className="main-body">
+        <CategoryFilter fetchAPI={ this.fetchAPI } className="side-category" />
+        <div className="main-holder">
+          <div className="main-header">
+            <form onSubmit={ this.handleSubmit } className="main-header-form">
+              <input
+                data-testid="query-input"
+                type="text"
+                value={ input }
+                onChange={ this.changeState }
+                placeholder="Digite algum termo de pesquisa ou escolha uma categoria."
+                className="search-input"
+              />
+              <FaSearch
+                type="submit"
+                data-testid="query-button"
+                onClick={ this.fetchAPI }
+                className="search-btn"
+              />
+            </form>
+            <Link data-testid="shopping-cart-button" to="/shopping-cart" className="shopping-cart">
+              <FaShoppingCart />
+            </Link>
+          </div>
+          <ListItems list={ list } />
+        </div>
       </div>
 
     );

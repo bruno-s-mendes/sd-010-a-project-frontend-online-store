@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.side-nav {
+  margin: 10px;
+  padding: 3px
+}
+
+.side-nav-option {
+  border: solid 1px #2968c8;
+  background-color: #fff159;
+  height: 20px;
+  color: #2968c8;
+  font-weight: 500;
+}
+
+.side-nav-option:hover {
+  background-color: #2968c8;
+  color: white;
+  cursor: pointer;
+}
+
+.side-nav-option:active {
+  background-color: #2968c8;
+  color: white;
+  cursor: pointer;
+  border: solid 6px white; 
+  height: 32px;
+}

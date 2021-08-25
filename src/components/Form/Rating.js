@@ -28,7 +28,7 @@ const Rating = (props) => {
 
   return (
     <div className="rating">
-      <label htmlFor="star1">
+      <label htmlFor="star1" className="star-label">
         <input
           type="radio"
           name="star"
@@ -40,6 +40,7 @@ const Rating = (props) => {
       </label>
       <label
         htmlFor="star2"
+        className="star-label"
       >
         <input
           type="radio"
@@ -50,7 +51,7 @@ const Rating = (props) => {
         />
         <AiTwotoneStar className="star-font" />
       </label>
-      <label htmlFor="star3">
+      <label htmlFor="star3" className="star-label">
         <input
           type="radio"
           name="star"
@@ -60,7 +61,7 @@ const Rating = (props) => {
         />
         <AiTwotoneStar className="star-font" />
       </label>
-      <label htmlFor="star4">
+      <label htmlFor="star4" className="star-label">
         <input
           type="radio"
           name="star"
@@ -70,7 +71,7 @@ const Rating = (props) => {
         />
         <AiTwotoneStar className="star-font" />
       </label>
-      <label htmlFor="star5">
+      <label htmlFor="star5" className="star-label">
         <input
           type="radio"
           name="star"
