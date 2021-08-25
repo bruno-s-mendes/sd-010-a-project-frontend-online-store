@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/sd-010-a-project-frontend-online-store/static/css/main.7422706c.chunk.css",
-    "main.js": "/sd-010-a-project-frontend-online-store/static/js/main.98cc0ba0.chunk.js",
-    "main.js.map": "/sd-010-a-project-frontend-online-store/static/js/main.98cc0ba0.chunk.js.map",
+    "main.js": "/sd-010-a-project-frontend-online-store/static/js/main.8180e585.chunk.js",
+    "main.js.map": "/sd-010-a-project-frontend-online-store/static/js/main.8180e585.chunk.js.map",
     "runtime-main.js": "/sd-010-a-project-frontend-online-store/static/js/runtime-main.0653d68d.js",
     "runtime-main.js.map": "/sd-010-a-project-frontend-online-store/static/js/runtime-main.0653d68d.js.map",
-    "static/js/2.06b5e5be.chunk.js": "/sd-010-a-project-frontend-online-store/static/js/2.06b5e5be.chunk.js",
-    "static/js/2.06b5e5be.chunk.js.map": "/sd-010-a-project-frontend-online-store/static/js/2.06b5e5be.chunk.js.map",
+    "static/js/2.a80d385a.chunk.js": "/sd-010-a-project-frontend-online-store/static/js/2.a80d385a.chunk.js",
+    "static/js/2.a80d385a.chunk.js.map": "/sd-010-a-project-frontend-online-store/static/js/2.a80d385a.chunk.js.map",
     "index.html": "/sd-010-a-project-frontend-online-store/index.html",
-    "precache-manifest.581f3c3a361cbbc2e7e51a759f1d3a32.js": "/sd-010-a-project-frontend-online-store/precache-manifest.581f3c3a361cbbc2e7e51a759f1d3a32.js",
+    "precache-manifest.b139d619238fad0d9a2d6282684d5c93.js": "/sd-010-a-project-frontend-online-store/precache-manifest.b139d619238fad0d9a2d6282684d5c93.js",
     "service-worker.js": "/sd-010-a-project-frontend-online-store/service-worker.js",
     "static/css/main.7422706c.chunk.css.map": "/sd-010-a-project-frontend-online-store/static/css/main.7422706c.chunk.css.map",
-    "static/js/2.06b5e5be.chunk.js.LICENSE.txt": "/sd-010-a-project-frontend-online-store/static/js/2.06b5e5be.chunk.js.LICENSE.txt",
+    "static/js/2.a80d385a.chunk.js.LICENSE.txt": "/sd-010-a-project-frontend-online-store/static/js/2.a80d385a.chunk.js.LICENSE.txt",
     "static/media/mercadolivre.png": "/sd-010-a-project-frontend-online-store/static/media/mercadolivre.5cb1cb3e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0653d68d.js",
-    "static/js/2.06b5e5be.chunk.js",
+    "static/js/2.a80d385a.chunk.js",
     "static/css/main.7422706c.chunk.css",
-    "static/js/main.98cc0ba0.chunk.js"
+    "static/js/main.8180e585.chunk.js"
   ]
 }
