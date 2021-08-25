@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sd-010-a-project-frontend-online-store/static/css/main.7422706c.chunk.css",
+    "main.js": "/sd-010-a-project-frontend-online-store/static/js/main.c48fbdd1.chunk.js",
+    "main.js.map": "/sd-010-a-project-frontend-online-store/static/js/main.c48fbdd1.chunk.js.map",
+    "runtime-main.js": "/sd-010-a-project-frontend-online-store/static/js/runtime-main.0653d68d.js",
+    "runtime-main.js.map": "/sd-010-a-project-frontend-online-store/static/js/runtime-main.0653d68d.js.map",
+    "static/js/2.06b5e5be.chunk.js": "/sd-010-a-project-frontend-online-store/static/js/2.06b5e5be.chunk.js",
+    "static/js/2.06b5e5be.chunk.js.map": "/sd-010-a-project-frontend-online-store/static/js/2.06b5e5be.chunk.js.map",
+    "index.html": "/sd-010-a-project-frontend-online-store/index.html",
+    "precache-manifest.e5117b94189918ea4df48dff215f110e.js": "/sd-010-a-project-frontend-online-store/precache-manifest.e5117b94189918ea4df48dff215f110e.js",
+    "service-worker.js": "/sd-010-a-project-frontend-online-store/service-worker.js",
+    "static/css/main.7422706c.chunk.css.map": "/sd-010-a-project-frontend-online-store/static/css/main.7422706c.chunk.css.map",
+    "static/js/2.06b5e5be.chunk.js.LICENSE.txt": "/sd-010-a-project-frontend-online-store/static/js/2.06b5e5be.chunk.js.LICENSE.txt",
+    "static/media/mercadolivre.png": "/sd-010-a-project-frontend-online-store/static/media/mercadolivre.5cb1cb3e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0653d68d.js",
+    "static/js/2.06b5e5be.chunk.js",
+    "static/css/main.7422706c.chunk.css",
+    "static/js/main.c48fbdd1.chunk.js"
+  ]
+}
